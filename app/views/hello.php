@@ -14,6 +14,7 @@
 	<!-- Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Fira+Sans:400,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" type='text/css'>
 
 	<!-- Vendor Style -->
 	<link href='style/vendor/onepage-scroll.css' rel='stylesheet' type='text/css'>
@@ -25,10 +26,14 @@
 <body>
 	<div class="main">
 		<section class="header-promo">
+			<div class="promo-pic"></div>
 			<div class="promo-box">
 				<h3 class='headline1'>UTSC</h3>
 				<h3 class='headline2'>Career Path Association</h3> 
 				<h4 class='tagline'>Your future, we are searching for it.</h4>
+				<div class="pin-bottom">
+					<i class='icon ion-chevron-down'></i>
+				</div>
 			</div>
 		</section>
 		<section class='events'>
