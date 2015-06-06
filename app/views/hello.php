@@ -18,6 +18,8 @@
 
 	<!-- Vendor Style -->
 	<link href='style/vendor/onepage-scroll.css' rel='stylesheet' type='text/css'>
+	<link href='style/vendor/slick/slick.css' rel='stylesheet' type='text/css'>
+	<!-- <link href='style/vendor/slick/slick-theme.css' rel='stylesheet' type='text/css'> -->
 
 	<!-- App Style -->
 	<link href='style/app/style.css' rel='stylesheet' type='text/css'>	
@@ -37,7 +39,14 @@
 			</div>
 		</section>
 		<section class='events'>
-			Here's what we did in 2014
+			<h3>Here's what we did in 2014</h3>
+			<div class="events-carousel">
+			  <div><img src="assets/pic1.jpg" alt=""></div>
+			  <div><img src="assets/pic2.jpg" alt=""></div>
+			  <div><img src="assets/pic4.jpg" alt=""></div>
+			</div>
+			<i class='icon ion-ios-arrow-left' id='left-event-btn'></i>
+			<i class='icon ion-ios-arrow-right' id='right-event-btn'></i>
 		</section>
 		<section class='about-us'>
 			Who we are
@@ -49,8 +58,13 @@
 <script src='scripts/vendor/zepto.js'></script>
 <script src='scripts/vendor/fx.js'></script>
 <script src='scripts/vendor/zepto.onepagescroll.min.js'></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="style/vendor/slick/slick.min.js"></script>
 
 <!-- App Scripts -->
+<script src='scripts/app/onepagescroll.config.js'></script>
+<script src='scripts/app/slick.config.js'></script>
 <script src='scripts/app/app.js'></script>
 
 </html>
