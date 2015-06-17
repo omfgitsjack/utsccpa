@@ -32,13 +32,14 @@
 			<div class="promo-box">
 				<h3 class='headline1'>UTSC</h3>
 				<h3 class='headline2'>Career Path Association</h3> 
-				<h4 class='tagline'>Your future, we are searching for it.</h4>
+				<h4 class='tagline'>Your future, we are searching for it.</h4>		
 				<div class="pin-bottom">
+					<h4 class='tagline'>Coming Soon.</h4>
 					<i class='icon ion-chevron-down'></i>
 				</div>
 			</div>
 		</section>
-		<section class='events'>
+<!-- 		<section class='events'>
 			<h3>Here's what we did in 2014</h3>
 			<div class="events-carousel">
 			  <div><img src="assets/pic1.jpg" alt=""></div>
@@ -50,7 +51,7 @@
 		</section>
 		<section class='about-us'>
 			Who we are
-		</section>
+		</section> -->
 	</div>
 </body>
 

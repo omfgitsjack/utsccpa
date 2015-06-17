@@ -6,6 +6,7 @@ html {
 body {
   font-size: 1.5em;
   /* currently ems cause chrome bug misinterpreting rems on body element */
+
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -44,6 +45,7 @@ section.header-promo {
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat; */
+
   display: table;
 }
 section.header-promo > .promo-pic {
@@ -92,13 +94,33 @@ section.header-promo > .promo-box > .tagline {
   margin-bottom: 50px;
   margin-top: 25px;
   padding: 0 40px 0 40px;
+  color: #ecf0f1;
+}
+section.header-promo > .promo-box > .coming-soon {
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #eeeeee;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  padding: 0 40px 0 40px;
 }
 .pin-bottom {
   position: absolute;
   bottom: 0px;
-  height: 50px;
+  height: 105px;
   width: 100%;
   z-index: 20;
+}
+.pin-bottom > .tagline {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #eeeeee;
+  margin-bottom: 0;
+  margin-top: 25px;
+  padding: 0 40px 0 40px;
+  color: #ecf0f1;
 }
 .pin-bottom > i {
   color: white;
@@ -154,6 +176,7 @@ section.header-promo > .promo-box > .tagline {
   font-size: 2.3em;
   font-weight: 500;
   /* line-height: 2.3em; */
+
   line-height: 1.25;
 }
 .event-title-container {
@@ -163,4 +186,3 @@ section.header-promo > .promo-box > .tagline {
   margin-bottom: 1.5em;
   margin-left: auto;
 }
-/*# sourceMappingURL=style.css.map */
